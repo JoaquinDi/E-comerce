@@ -1,0 +1,64 @@
+.section__accesorios{
+    background: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.head__ver-todo{
+    color: #ebd792;
+}
+
+.head_lista{
+    display: flex;
+    color: #eee;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.lista_accesorios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo__accesorios{
+    color: #eee;
+    font-weight: bold;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1rem;
+    color: #eee;
+}
+
+.titulo_producto{
+    padding-top: 1rem;
+}
+
+.precio{
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+.link_pedales{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    color: #ebd792;
+}
+
+@media (max-width:767px) {
+    
+    .titulo__accesorios{
+        padding-bottom: 1rem;
+    }
+
+    .lista_pedales{
+        justify-content: center;
+        text-align: center;
+    }
+}

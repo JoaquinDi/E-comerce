@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="login.css">
+
+
+    <link rel="stylesheet" href="css_paginas/PRS_Custom_24-08/PRS_custom_24-08.css">
+    <title>Big Fuzz | Login</title>
+</head>
+<body class="body">
+    <header class="header">
+        <a href="../index.html">
+            <div class="div__logo"></div></a>
+        <div class="div__buscador">
+            <input type="search" class="input__buscador">
+            <a href=""></a>
+        </div>
+        <a href="#" class="login">Login</a>
+        <input type="button" class="buscador-smartphone"></input>
+    </header>
+    <section class="section__iniciar-sesion">
+        <form class="form__iniciar-sesion">
+            <h2 class="form__titulo-iniciar-sesion">Iniciar Sesion</h2>
+            <input type="email" id="email" placeholder="Escriba su correo electronico" class="input__gmail">
+            <input type="password" id="password" placeholder="Escriba su contraseña" class="input__clave">
+            <button type="button" class="form__boton-iniciar-sesion" onclick="login()">Login</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div >
+            <img class="footer__logo" src="../img/BigFuzz.png" alt="">
+        </div>
+        <form class="footer__form">
+            <h2 class="footer__titulo">Hable con nosotros</h2>
+            <input type="text" placeholder="Nombre" class="input__nombre">
+            <textarea name="" id="" placeholder="Mensaje" class="textarea__mensaje"></textarea>
+            <button class="form__boton">Enviar</button>
+        </form>
+    </footer>
+    <div class="footer__info">
+        <h1>Desarrollado por Joaquin Dionisio</h1>
+        <h2>joaquin.dionisio000@gmail.com</h2>
+        <p>2022</p>
+    </div>
+    <script src="login-script.js"></script>
+</body>
+</html>

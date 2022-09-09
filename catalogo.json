@@ -1,0 +1,18 @@
+{
+    "producto": [
+        {
+            "categoria": "instrumentos",
+            "imagenURL": "",
+            "nombre": "Rex Brown Signature Thunderbird",
+            "precio": "$2,799.00",
+            "id": 0
+        },
+        {
+            "categoria": "instrumentos",
+            "imagenURL": "",
+            "nombre": "Rex Brown Signature Thunderbird",
+            "precio": "$2,799.00",
+            "id": 1
+        }
+    ]
+}

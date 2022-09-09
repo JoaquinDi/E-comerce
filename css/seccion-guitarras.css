@@ -1,0 +1,85 @@
+.section__guitarras{
+    background: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.head_lista{
+    display: flex;
+    color: #eee;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.lista_guitarras{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo__guitarras{
+    color: #eee;
+    font-weight: bolder;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1rem;
+    color: #eee;
+}
+
+.titulo_producto{
+    padding-top: 1rem;
+}
+
+.precio{
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+.link_producto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    color: #ebd792;
+}
+
+@media (max-width: 1215px){
+    .producto:nth-child(6){
+        display: none;
+    }
+}
+
+@media (max-width: 1023px){
+    .producto:nth-child(5){
+        display: none;
+    } 
+}
+
+@media (max-width: 768px){
+    .producto:nth-child(5){
+        display: flex;
+    }
+
+    .producto:nth-child(6){
+        display: flex;
+    }
+
+    .lista_guitarras{
+        justify-content: center;
+        text-align: center;
+        border-bottom: solid #212121 1px;
+    }
+
+    .head_lista{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo__guitarras{
+        padding-bottom: 1rem;
+    }
+}

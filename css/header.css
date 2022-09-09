@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2e2e2e;
+    background: linear-gradient(180deg, #2e2e2e 33%, #2b2b2b 100%);
+}
+
+.div__logo{
+    background-image: url(../img/BigFuzz_blanco.png);
+    width: 60px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+/* hay que reacer */
+.input__buscador{
+    color: #eee;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+    background-color: #4e4e4e;
+    background-image: url(/img/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+    background-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem;
+    margin: 1rem;
+    width: 15rem;
+
+}
+
+.login{
+    color: #eee;
+}
+
+.login:hover{
+    color: #ebd792;
+}
+
+.buscador-smartphone{
+    display: none;
+}
+
+@media (max-width:767px) {
+    .input__buscador{
+        display: none;
+    }
+
+    .buscador-smartphone{
+        display: flex;
+        background: none;
+        border: none;
+        background-image: url(/img/magnifying-glass-solid.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1.5rem;
+    }
+}

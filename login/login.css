@@ -1,0 +1,44 @@
+.section__iniciar-sesion{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.form__iniciar-sesion{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+}
+
+.form__titulo-iniciar-sesion{
+    padding-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input__gmail{
+    height: 1rem;
+    margin-bottom: .5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+}
+
+.input__clave{
+    height: 1rem;
+    margin-bottom: .5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+}
+
+.form__boton-iniciar-sesion{
+    border: none;
+    background-color: #0c0c0c;
+    color: #eee;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+}

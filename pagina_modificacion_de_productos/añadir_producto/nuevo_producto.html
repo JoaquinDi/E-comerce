@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="nuevo_producto.css">
+
+
+    <title>Big Fuzz | Nuevo producto</title>
+</head>
+<body class="body">
+    <header class="header">
+        <a href="../../index.html">
+            <div class="div__logo"></div></a>
+        <div class="div__buscador">
+            <input type="search" class="input__buscador">
+            <a href=""></a>
+        </div>
+        <a href="#" class="login">Login</a>
+        <input type="button" class="buscador-smartphone"></input>
+    </header>
+    <section class="section__iniciar-sesion">
+        <form class="form__iniciar-sesion" data-form-formulario>
+            <h2 class="form__titulo-iniciar-sesion">Añadir producto</h2>
+        <div class="form-container-categoria">
+            <div class="input-container-categoria">
+                <input  type="radio" id="instrumentos" value="instrumentos" name="categoria" data-form-instrumentos>
+                <label for="instrumentos">instrumentos</label>  
+            </div> 
+            <div class="input-container-categoria"> 
+                <input  type="radio" id="pedales" value="pedales" name="categoria" data-form-pedales>
+                <label for="pedales">pedales</label>
+            </div>
+            <div class="input-container-categoria">    
+                <input  type="radio" id="accesorios" value="accesorios" name="categoria" data-form-accesorios>
+                <label for="accesorios">accesorios</label>
+            </div>    
+        </div>
+
+            <input required type="url" id="url" placeholder="URL de la imagen" class="input__gmail" data-form-url>
+            <input required type="tel" id="nombre" placeholder="Nombre del producto" class="input__clave" data-form-nombre>
+            <input required type="text" id="precio" placeholder="Precio" class="input__gmail" data-form-precio>
+            <input type="submit" class="form__boton-iniciar-sesion" data-form-btn ></input>
+        </form>
+    </section>
+    <footer class="footer">
+        <div >
+            <img class="footer__logo" src="../../img/BigFuzz.png" alt="">
+        </div>
+        <form class="footer__form">
+            <h2 class="footer__titulo">Hable con nosotros</h2>
+            <input type="text" placeholder="Nombre" class="input__nombre">
+            <textarea name="" id="" placeholder="Mensaje" class="textarea__mensaje"></textarea>
+            <button class="form__boton">Enviar</button>
+        </form>
+    </footer>
+    <div class="footer__info">
+        <h1>Desarrollado por Joaquin Dionisio</h1>
+        <h2>joaquin.dionisio000@gmail.com</h2>
+        <p>2022</p>
+    </div>
+    <script type="module" src="../crear-producto-controler.js"></script>
+</body>
+</html>

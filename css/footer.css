@@ -1,0 +1,78 @@
+.footer{
+    display: flex;
+    background: #ebd792;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+}
+
+.input__nombre{
+    height: 1rem;
+    margin-bottom: .5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+}
+
+.footer__logo{
+    width: 8rem;
+}
+
+.footer__titulo{
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.textarea__mensaje{
+    margin-bottom: .5rem;
+    height: 7rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+}
+
+.form__boton{
+    border: none;
+    background-color: #0c0c0c;
+    color: #eee;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 8px 7px 9px -6px rgba(0,0,0,0.32);
+}
+
+.footer__info{
+    background: #ebd792;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.footer__info h2{
+    padding-bottom: .5rem;
+}
+
+.footer__info h1{
+    padding-bottom: .5rem;
+}
+
+@media (max-width:767px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__logo{
+        padding: 2rem 0;
+    }
+
+    .footer__form{
+        align-self: center;
+    }
+}
